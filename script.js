@@ -54,8 +54,8 @@ function gameRound(playerSelection){
     document.querySelector('.playerCount').textContent=playerCount;
     document.querySelector('.computerCount').textContent=computerCount;
     
-    if (playerCount===5) winner('player');
-    if (computerCount===5) winner('computer');
+    if (playerCount===2) winner('player');
+    if (computerCount===2) winner('computer');
 }
 
 function reset(){
